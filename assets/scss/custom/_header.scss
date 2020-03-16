@@ -1,0 +1,92 @@
+// Container
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+.site-header {
+  height: 90vh;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  margin-top: -65px;
+
+  &:before {
+    height: 90vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    background: rgba(0,0,0,0.5);
+  }
+}
+
+
+.home-template .site-header:before {
+  background: rgba(132,13,121,.88);
+  background: linear-gradient(45deg,rgba(132,13,121,.88),rgba(208,44,180,.31));
+  background: -webkit-linear-gradient(135deg,rgba(132,13,121,.88),rgba(208,44,180,.31));
+}
+
+.site-header.no-cover:before,
+.site-header.no-cover:after {
+  display: none;
+}
+
+.site-header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw 4vw;
+  min-height: 200px;
+  max-height: 450px;
+  text-align: center;
+}
+
+.site-title {
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.site-logo {
+  max-height: 65px;
+}
+
+.site-description {
+  z-index: 10;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 2.2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  color: $white;
+  width: 620px;
+}
+
+@media (max-width: 500px) {
+  .site-title {
+    font-size: 3rem;
+  }
+  .site-description {
+    font-size: 1.8rem;
+  }
+}

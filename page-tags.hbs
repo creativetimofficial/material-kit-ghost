@@ -1,0 +1,36 @@
+{{!< default}}
+{{> "site-nav"}}
+
+{{#post}}
+<header class="site-header outer" style="background-image: url({{feature_image}})" data-parallax="true">
+    <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                {{title}}
+            </h1>
+            <br/>
+            <h2 class="site-description">{{excerpt}}</h2>
+        </div>
+    </div>
+</header>
+{{/post}}
+
+{{#post}}
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    <div class="tag-wrapper">
+    {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+    {{#foreach tags}}
+        <a href='{{url}}' target="_blank" class="card-tag" style="background-image: url({{feature_image}})">
+        <h2 class="tag-title">{{ name }}
+          <p class="tag-description">
+            <small>{{ count.posts }} posts</small>
+          </p>
+        </h2>
+        </a>
+    {{/foreach}}
+    {{/get}}
+    </div>
+  </div>
+</main>
+{{/post}}
