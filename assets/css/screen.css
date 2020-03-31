@@ -127,15 +127,20 @@ Usage (In Ghost editor):
 }
 
 .post-full-content blockquote {
-    margin: 0 0 1.5em;
-    padding: 0 1.5em;
-    border-left: #3eb0ef 3px solid;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    border-left: #eee 5px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5em;
 }
 
-.post-full-content blockquote p {
+
+.post-full-content blockquote p
+{
     margin: 0 0 1em 0;
     color: inherit;
-    font-size: inherit;
+    font-size: 1.5rem;
     line-height: inherit;
     font-style: italic;
 }
@@ -237,7 +242,7 @@ Usage (In Ghost editor):
 
 .post-full-content h3 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -258,25 +263,12 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h5 {
-    display: block;
-    margin: 0.5em 0;
-    padding: 1em 0 1.5em;
-    border: 0;
-    color: var(--blue);
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 3.2rem;
-    line-height: 1.35em;
-    text-align: center;
-}
-@media (min-width: 1180px) {
-    .post-full-content h5 {
-        max-width: 1060px;
-        width: 100vw;
-    }
+    margin: 0.5em 0 0.2em 0;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 @media (max-width: 500px) {
     .post-full-content h5 {
-        padding: 0 0 0.5em;
         font-size: 2.2rem;
     }
 }
