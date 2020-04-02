@@ -191,7 +191,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content hr {
-    margin: 4vw 0;
+    margin: 1vw 0;
 }
 
 .post-full-content hr:after {
@@ -366,7 +366,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     letter-spacing: 0.2px;
     text-align: left;
-    text-transform: uppercase;
+    text-transform: capitalize
 }
 
 .post-full-content td {

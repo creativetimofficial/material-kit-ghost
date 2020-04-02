@@ -1611,6 +1611,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   background: #fff; }
 
+.site-main ul li,
+.site-main ol li {
+  font-size: 15px;
+}
 /* Full width page blocks */
 .outer {
   position: relative;
