@@ -19,14 +19,12 @@ var cssnano = require('cssnano');
 var customProperties = require('postcss-custom-properties');
 var easyimport = require('postcss-easy-import');
 
+const { watch } = require('gulp');
+
 var swallowError = function swallowError(error) {
     gutil.log(error.toString());
     gutil.beep();
     this.emit('end');
-};
-
-var nodemonServerInit = function () {
-    livereload.listen(1234);
 };
 
 var Paths = {
@@ -79,8 +77,8 @@ function js() {
 }
 gulp.task('js', js);
 
-gulp.task('build', gulp.series(['css', 'js'], function (/* cb */) {
-    return nodemonServerInit();
+gulp.task('build', gulp.series(['css', 'js'], function (/* cb */ done) {
+    done();
 }));
 
 gulp.task('generate', gulp.series(['css', 'js']));
@@ -94,7 +92,7 @@ gulp.task('watch-scss', function() {
   gulp.watch(Paths.SCSS, compileScss);
 });
 
-gulp.task('watch', gulp.series(['watch-scss', 'watch-css']));
+gulp.task('watch', gulp.parallel(['watch-css', 'watch-scss']));
 
 gulp.task('zip', gulp.series(['css', 'js'], function () {
     var targetDir = 'dist/';
@@ -110,6 +108,4 @@ gulp.task('zip', gulp.series(['css', 'js'], function () {
         .pipe(gulp.dest(targetDir));
 }));
 
-gulp.task('default', gulp.series(['build'], function () {
-    gulp.start('watch');
-}));
+gulp.task('default', gulp.parallel(['build', 'watch']));
