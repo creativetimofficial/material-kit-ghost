@@ -8,7 +8,7 @@ The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the la
 
 &nbsp;
 
-# First time using a Ghost theme?
+# First time using a Ghost theme? 
 
 Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
 
