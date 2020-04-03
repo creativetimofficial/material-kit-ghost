@@ -127,15 +127,20 @@ Usage (In Ghost editor):
 }
 
 .post-full-content blockquote {
-    margin: 0 0 1.5em;
-    padding: 0 1.5em;
-    border-left: #3eb0ef 3px solid;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    border-left: #eee 5px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5em;
 }
 
-.post-full-content blockquote p {
+
+.post-full-content blockquote p
+{
     margin: 0 0 1em 0;
     color: inherit;
-    font-size: inherit;
+    font-size: 1.5rem;
     line-height: inherit;
     font-style: italic;
 }
@@ -186,7 +191,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content hr {
-    margin: 4vw 0;
+    margin: 1vw 0;
 }
 
 .post-full-content hr:after {
@@ -237,7 +242,7 @@ Usage (In Ghost editor):
 
 .post-full-content h3 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -258,25 +263,12 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h5 {
-    display: block;
-    margin: 0.5em 0;
-    padding: 1em 0 1.5em;
-    border: 0;
-    color: var(--blue);
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 3.2rem;
-    line-height: 1.35em;
-    text-align: center;
-}
-@media (min-width: 1180px) {
-    .post-full-content h5 {
-        max-width: 1060px;
-        width: 100vw;
-    }
+    margin: 0.5em 0 0.2em 0;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 @media (max-width: 500px) {
     .post-full-content h5 {
-        padding: 0 0 0.5em;
         font-size: 2.2rem;
     }
 }
@@ -348,44 +340,51 @@ Usage (In Ghost editor):
     white-space: nowrap;
     vertical-align: top;
 }
-
+/*
 .post-full-content table {
     -webkit-overflow-scrolling: touch;
-    background: radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
     background-attachment: scroll, scroll;
     background-size: 10px 100%, 10px 100%;
     background-repeat: no-repeat;
 }
 
 .post-full-content table td:first-child {
-    background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
     background-size: 20px 100%;
     background-repeat: no-repeat;
 }
 
 .post-full-content table td:last-child {
-    background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
     background-position: 100% 0;
     background-size: 20px 100%;
     background-repeat: no-repeat;
 }
+*/
 
 .post-full-content table th {
     color: var(--darkgrey);
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.9rem;
+    font-weight: 400;
     letter-spacing: 0.2px;
     text-align: left;
-    text-transform: uppercase;
-    background-color: color(var(--whitegrey) l(+4%));
+    text-transform: capitalize
+}
+
+.post-full-content td {
+    padding: 12px 8px;
+    vertical-align: middle;
+    border-color: #ddd;
+    font-size: 1.5rem;
 }
 
 .post-full-content table th,
-.post-full-content table td {
+.post-full-content table tr {
     padding: 6px 12px;
-    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+    border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
+.post-full-content table tr:last-child {
+    border-bottom: 0px;
+}
 
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
@@ -749,7 +748,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content figcaption {
-    margin: 1.0em 0 0;
+    margin: 0.4em 0 0.4em;
     font-size: 80%;
     line-height: 1.6em;
     text-align: center;

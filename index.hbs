@@ -7,12 +7,12 @@ into the {body} of the default.hbs template --}}
         <div class="site-header-content">
             <h1 class="site-title">
                 {{#if @blog.logo}}
-                    <img class="site-logo" src="{{img_url @blog.logo size="s"}}" alt="{{@blog.title}}" />
+                    <img class="site-logo" src="{{img_url @blog.logo size="s"}}" alt="{{@site.title}}" />
                 {{else}}
-                    {{@blog.title}}
+                    {{@site.title}}
                 {{/if}}
             </h1>
-            <h2 class="site-description">{{@blog.description}}</h2>
+            <h2 class="site-description">{{@site.description}}</h2>
         </div>
         {{> "site-nav"}}
     </div>
