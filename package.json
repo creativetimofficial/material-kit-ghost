@@ -1,7 +1,7 @@
 {
     "name": "material-kit",
-    "description": "Start Your Development With A Badass UI Kit inspired by Material Design",
-    "demo": "https://demo.ghost.io",
+    "description": "Start Your Development With A Badass UI Kit inspired by Material Design - Made By Creative Tim",
+    "demo": "https://material-kit-ghost.creative-tim.com/",
     "version": "1.0.0",
     "engines": {
         "ghost-api": "v3"
@@ -17,9 +17,9 @@
         "test": "gscan ."
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Creative-Tim",
+        "email": "hello@creative-tim.com",
+        "url": "https://creative-tim.com"
     },
     "gpm": {
         "type": "theme",
@@ -31,14 +31,22 @@
     "keywords": [
         "material",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "material theme ghost",
+        "material theme",
+        "ghost material",
+        "creative tim ghost",
+        "ghost theme material",
+        "material ghost",
+        "google material ghost",
+        "material ghost theme"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "https://github.com/creativetimofficial/ct-material-kit-ghost"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+    "bugs": "https://github.com/creativetimofficial/material-kit-ghost/issues",
+    "contributors": "https://github.com/creativetimofficial/material-kit-ghost/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "6.3.6",
         "cssnano": "3.7.1",
