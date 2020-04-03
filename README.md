@@ -14,7 +14,7 @@ Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.
 
 We've documented our default theme pretty heavily so that it should be fairly easy to work out what's going on just by reading the code and the comments. Once you feel comfortable with how everything works, we also have full [theme API documentation](https://themes.ghost.org) which explains every possible Handlebars helper and template.
 
-**The main files are:**
+**The main files are:** 
 
 - `default.hbs` - The main template file
 - `index.hbs` - Used for the home page
