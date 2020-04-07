@@ -12,20 +12,20 @@ Start Your Development With A Badass Material Kit Ghost Theme inspired by Materi
 
 **FULLY CODED COMPONENTS**
 
-Material Kit Ghost uses a simple templating language called Handlebars (http://handlebarsjs.com/) for its themes. We recommend going over at https://ghost.org/docs/api/handlebars-themes/ for more information regarding the theme and how to develop a Ghost theme.
+Material Kit Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes. We recommend going over at https://ghost.org/docs/api/handlebars-themes/ for more information regarding the theme and how to develop a Ghost theme.
 
 
 **PIXEL PERFECT DESIGN**
 
 The screens are carefully created and inspired by our Material Kit line of design. You can never go wrong with the amount of attention we’re willing to invest into crafting the most accurate Material Design theme for Ghost. 
 
-View all pages here (https://material-kit-ghost.creative-tim.com/). 
+View all pages [here](https://material-kit-ghost.creative-tim.com/). 
 
 **STYLE GUIDE** 
 
 Material Kit Ghost comes packed with a large number of features. Putting together a page has never been easier. From HTML insertion to bookmarks and responsive styling, you can easily create and built your blog posts. We have created multiple options for you to put together and customise into pixel perfect pages. 
 
-View all sections here (https://material-kit-ghost.creative-tim.com/style-guide/).
+View all sections [here](https://material-kit-ghost.creative-tim.com/style-guide/).
 
 
 Let us know your thoughts below. And good luck with development!
