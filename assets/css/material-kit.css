@@ -469,6 +469,10 @@
   text-align: left;
   align-items: flex-start; }
 
+@media (max-width: 700px) {
+  .home-template .site-header-content {
+    padding: 10vw 4vw; } }
+
 .site-title {
   z-index: 10;
   margin: 0;
