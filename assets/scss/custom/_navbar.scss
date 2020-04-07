@@ -56,7 +56,6 @@
   letter-spacing: 0.4px;
   white-space: nowrap;
   -ms-overflow-scrolling: touch;
-  padding-left: 15px;
 }
 
 /* Site Nav Hack Explanation (above):
@@ -121,6 +120,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
   flex-shrink: 0;
   display: flex;
   align-items: center;
+}
+
+.social-links a:first-of-type {
+  margin-left: -10px;
 }
 
 .social-links a:last-of-type {

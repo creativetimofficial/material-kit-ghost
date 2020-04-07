@@ -4,7 +4,7 @@ into the {body} of the default.hbs template --}}
 {{> "site-nav"}}
 
 <header class="site-header outer {{#if @blog.cover_image}}" style="background-image: url({{@site.cover_image}}){{else}}no-cover{{/if}}" data-parallax="true">
-    <div class="inner">
+    <div class="container">
         <div class="site-header-content">
             <h1 class="site-title">
                 {{#if @blog.logo}}
