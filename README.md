@@ -1,12 +1,12 @@
 # [Material Kit Ghost](https://material-kit-ghost.creative-tim.com/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Argon%20React%20Native,%20a%20cool%20Argon%20React%20Native%20App%20Template%20%E2%9D%A4%EF%B8%8F%20https%3A//bit.ly/2KAj86H%20%23reactnative%20%23argon%20%23designsystem%20%23developers%20via%20%40CreativeTim)
 
 
- ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-react-native.svg?style=flat)](https://github.com/creativetimofficial/argon-react-native/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-react-native.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-react-native/issues?q=is%3Aissue+is%3Aclosed)
+ ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-react-native.svg?style=flat)](https://github.com/creativetimofficial/argon-react-native/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-ghost.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit-ghost/issues?q=is%3Aissue+is%3Aclosed)
 
 
-![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-react-native/arg-rn-thumbnail.jpg)
+![Product Gif](??)
 
-Material Kit Ghost is a fully coded Ghost theme bult with. We have redesigned all the usual components in Galio to make it look like Argon's Design System, minimalistic and easy to use.
+Material Kit Ghost is a fully coded Ghost theme inspired by our own Material Design line of themes. We have created what we think is the best free Material Design theme for Ghost.
 
 Start Your Development With A Badass Material Kit Ghost Theme inspired by Material Design. If you like Google's Material Design, you will love this kit! It features a huge number of components built to fit together and look amazing. 
 
