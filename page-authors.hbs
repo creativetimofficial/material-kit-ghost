@@ -1,0 +1,75 @@
+{{!< default}}
+
+
+ {{> "site-nav"}}
+ {{#post}}
+ <header class="site-header outer" style="background-image: url({{feature_image}})" data-parallax="true">
+     <div class="inner">
+         <div class="site-header-content">
+             <h1 class="site-title">
+                 {{title}}
+             </h1>
+             <br/>
+             <h2 class="site-description">{{excerpt}}</h2>
+         </div>
+     </div>
+ </header>
+ {{/post}}
+
+{{#post}}
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    {{#get "authors" limit="all" include="count.posts" order="count.posts desc"}}
+      <div class="post-feed">
+        {{#foreach users}}
+
+          <article class="post-card card-profile card-plain {{#unless profile_image}} no-image{{/unless}}">
+            <div class="post-card-header card-avatar">
+              {{#if profile_image}}
+                <a class="post-card-image-link" href="{{url}}">
+                  <div class="post-card-image img" style="background-image: url({{profile_image}})"></div>
+                </a>
+              {{/if}}
+            </div>
+
+            <div class="post-card-content">
+              <a class="post-card-content-link" href="{{url}}">
+                  <h2 class="post-card-title">{{name}}</h2>
+
+                  <div class="post-card-category">
+                    {{#if location}}
+                        <div class="author-location">{{location}}</div>
+                    {{/if}}
+                  </div>
+                <section class="post-card-excerpt">
+                  <p>{{bio}}</p>
+                </section>
+              </a>
+            </div>
+            <div class="post-card-footer">
+              <div class="author-meta">
+                  {{#if website}}
+                      <a class="btn social-link social-link-wb" href="{{website}}" target="_blank" rel="noopener">{{> "icons/website"}}</a>
+                  {{/if}}
+                  {{#if twitter}}
+                      <a class="btn social-link social-link-tw" href="{{twitter_url}}" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+                  {{/if}}
+                  {{#if facebook}}
+                      <a class="btn social-link social-link-fb" href="{{facebook_url}}" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
+                  {{/if}}
+                  <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{url absolute="true"}}rss/" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
+              </div>
+              <!-- <div class="author-stats">
+                <span class="bull">&bull;</span>  {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}
+              </div> -->
+            </div>
+          </article>
+
+        {{/foreach}}
+      </div>
+    {{/get}}
+  </div>
+</main>
+
+{{/post}}

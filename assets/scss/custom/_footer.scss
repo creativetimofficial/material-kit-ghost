@@ -1,0 +1,60 @@
+
+/* 11. Site Footer
+/* ---------------------------------------------------------- */
+
+.site-footer {
+  padding: .9375em 0 !important;
+  position: relative;
+  color: #3c4858;
+
+  .site-footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255,255,255,0.7);
+    font-size: 1.3rem;
+
+    .copyright {
+      padding: 15px 0;
+      color: #3c4858;
+
+      a {
+        color: #9c27b0;
+
+        &:hover {
+          color: #89229b;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .site-footer-nav {
+      display: flex;
+
+      a {
+        color: #2E3847;
+        padding: .9375rem;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        position: relative;
+        display: block;
+
+        &:hover {
+          color: #89229b;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .subscribe-overlay-close:hover {
+      cursor: default;
+  }
+
+  .site-footer-nav a:first-of-type:before {
+      display: none;
+  }
+}

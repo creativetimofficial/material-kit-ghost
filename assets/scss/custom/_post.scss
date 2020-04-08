@@ -1,0 +1,254 @@
+
+/* 7. Single Post
+/* ---------------------------------------------------------- */
+
+.post-template .site-main,
+.page-template .site-main {
+  padding-bottom: 4vw;
+  padding-top: 4vw;
+  background: $white;
+}
+
+.post-full {
+  position: relative;
+  z-index: 50;
+}
+/* ^ Required to make .post-full-content:before/after z-index stacking work */
+
+.post-full-header {
+  margin: 0 auto;
+  padding: 6vw 3vw 3vw;
+  max-width: 1040px;
+  text-align: center;
+}
+
+.post-full-meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.post-full-meta a {
+  color: $white;
+}
+
+.post-full-title {
+  margin: 0;
+  color:  $white;
+  margin-bottom: 25px;
+}
+
+.date-divider {
+  display: inline-block;
+  margin: 0 6px 1px;
+}
+
+.post-full-image {
+  margin: 0 -10vw -165px;
+  height: 800px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.post-full-content {
+  position: relative;
+  margin: 0 auto;
+  padding: 70px 100px 0;
+  min-height: 230px;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.6em;
+  background: $white;
+}
+
+.no-image .post-full-content {
+  padding-top: 0;
+}
+
+.no-image .post-full-content:before,
+.no-image .post-full-content:after {
+  display: none;
+}
+
+.post-full-content h1,
+.post-full-content h2,
+.post-full-content h3,
+.post-full-content h4,
+.post-full-content h5,
+.post-full-content h6,
+.post-full-content p,
+.post-full-content ul,
+.post-full-content ol,
+.post-full-content dl,
+.post-full-content pre,
+.post-full-content blockquote,
+.post-full-comments,
+.footnotes {
+  min-width: 100%;
+}
+.post-full-content p {
+  font-size: 16px;
+}
+
+.post-full-content li {
+  word-break: break-word;
+}
+
+.post-full-content li p {
+  margin: 0;
+}
+
+.post-full-content a {
+  color: #000;
+  word-break: break-word;
+  // box-shadow: var(--blue) 0 -1px 0 inset;
+}
+
+.post-full-content a:hover {
+  // color: var(--blue);
+  text-decoration: none;
+}
+
+
+.post-full-content small {
+  display: inline-block;
+  line-height: 1.6em;
+}
+
+.post-full-content li:first-child {
+  margin-top: 0;
+}
+
+.post-full-content img,
+.post-full-content video {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 1040px;
+  height: auto;
+}
+
+.post-full-content .kg-bookmark-card {
+  margin: 0 0 1.5em;
+  border: 1px solid #e5eff5;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(0,0,0,.06), 0 2px 6px rgba(0,0,0,.03);
+  overflow: hidden;
+}
+  
+.post-full-content .kg-bookmark-card .kg-bookmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    color: currentColor;
+    font-family: inherit;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #364247;
+    box-shadow: none;
+}
+  
+.post-full-content .kg-bookmark-card .kg-bookmark-container:hover {
+    text-decoration: none;
+}
+  
+.post-full-content .kg-bookmark-card .kg-bookmark-content {
+    display: grid;
+    flex-grow: 999;
+    flex-basis: 0;
+    padding: 16px 18px;
+    min-width: 50%;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-title {
+    color: #3eb0ef;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: #303a3e;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-metadata,
+  .post-full-content .kg-bookmark-card .kg-bookmark-description {
+      margin-top: .5em;
+      display: flex;
+      align-items: center;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-metadata {
+      align-items: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #5c7078;
+      margin-top: 14px;
+      flex-wrap: wrap;
+  }
+
+  .post-full-content .kg-bookmark-card .kg-bookmark-description {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+  }
+
+  .post-full-content .kg-bookmark-card {
+    display: -webkit-box;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    color: #5c7078;
+    font-weight: 400;
+    margin-top: 12px;
+    overflow-y: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-icon {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      vertical-align: text-bottom;
+      margin-right: .5em;
+      margin-bottom: .05em;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-thumbnail {
+      display: flex;
+      flex-basis: 24rem;
+      flex-grow: 1;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-thumbnail img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: bottom;
+      object-fit: cover;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-author {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+  
+  .post-full-content .kg-bookmark-card .kg-bookmark-publisher::before {
+      content: "•";
+      margin: 0 .5em;
+  }
+  
+  .pust-full-content .kg-bookmark-card a > figcaption {
+    margin: 1em 0 1em;
+    font-size: 75%;
+    line-height: 1.6em;
+    text-align: center;
+  }

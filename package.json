@@ -1,0 +1,74 @@
+{
+    "name": "material-kit",
+    "description": "Start Your Development With A Badass UI Kit inspired by Material Design - Made By Creative Tim",
+    "demo": "https://material-kit-ghost.creative-tim.com/",
+    "version": "1.0.0",
+    "engines": {
+        "ghost-api": "v3"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "scripts": {
+        "dev": "gulp",
+        "zip": "gulp zip",
+        "test": "gscan ."
+    },
+    "author": {
+        "name": "Creative-Tim",
+        "email": "hello@creative-tim.com",
+        "url": "https://creative-tim.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Magazine"
+        ]
+    },
+    "keywords": [
+        "material",
+        "theme",
+        "ghost-theme",
+        "material theme ghost",
+        "material theme",
+        "ghost material",
+        "creative tim ghost",
+        "ghost theme material",
+        "material ghost",
+        "google material ghost",
+        "material ghost theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/creativetimofficial/ct-material-kit-ghost"
+    },
+    "bugs": "https://github.com/creativetimofficial/material-kit-ghost/issues",
+    "contributors": "https://github.com/creativetimofficial/material-kit-ghost/graphs/contributors",
+    "devDependencies": {
+        "autoprefixer": "6.3.6",
+        "cssnano": "3.7.1",
+        "gscan": "^2.0.0",
+        "gulp": "^4.0.0",
+        "gulp-filter": "5.1.0",
+        "gulp-livereload": "^4.0.1",
+        "gulp-postcss": "6.1.1",
+        "gulp-sass": "^3.2.1",
+        "gulp-sourcemaps": "1.6.0",
+        "gulp-uglify": "3.0.1",
+        "gulp-util": "3.0.7",
+        "gulp-watch": "4.3.8",
+        "gulp-zip": "4.0.0",
+        "postcss-color-function": "2.0.1",
+        "postcss-custom-properties": "5.0.1",
+        "postcss-easy-import": "1.0.1"
+    },
+    "config": {
+        "posts_per_page": 25
+    },
+    "dependencies": {
+        "gulp-cli": "^2.0.1"
+    }
+}

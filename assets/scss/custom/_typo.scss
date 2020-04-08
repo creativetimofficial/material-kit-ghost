@@ -1,0 +1,157 @@
+.site-header {
+ .site-title {
+   color: $white !important;
+ }
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h1,h2,h3,.h1,.h2,.h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4,h5,h6,.h4,.h5,.h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+html *{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+    font-size: $font-paragraph;
+    margin: 0 0 10px;
+}
+
+b{
+    font-weight: 700;
+}
+
+small,
+.small{
+    font-size: 75%;
+}
+
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h5,
+.footer-big h4,
+.media .media-heading{
+    font-weight: $font-weight-extra-bold;
+    font-family: $font-family-serif;
+
+    &,
+    a{
+        color: $black;
+        text-decoration: none;
+    }
+}
+
+h2.title{
+    margin-bottom: $headings-margin-bottom * 2;
+}
+
+.description,
+.card-description,
+.footer-big p{
+    color: $gray-300;
+}
+
+.text-warning {
+  color: $brand-warning !important;
+}
+.text-primary {
+  color: $brand-primary !important;
+}
+.text-danger {
+  color: $brand-danger !important;
+}
+.text-success {
+  color: $brand-success !important;
+}
+.text-info {
+  color: $brand-info !important;
+}
+.text-rose{
+  color: $brand-rose !important;
+}
+.text-gray{
+  color: $gray-color !important;
+}
+
+.space{
+  height: 130px;
+  display: block;
+}
+.space-110{
+  height: 110px;
+  display: block;
+}
+.space-50{
+  height: 50px;
+  display: block;
+}
+.space-70{
+  height: 70px;
+  display: block;
+}
+
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee;
+
+  p {
+    font-size: 1.063rem;
+    font-style: italic;
+  }
+
+  small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777;
+  }
+}
+
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+}
+.tim-typo .tim-note {
+    bottom: 5px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+.tim-row {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .tim-typo {
+    padding-left: 30% !important;
+    padding-right: 5% !important;
+
+    .tim-note {
+      width: 60px !important;
+   }
+  }
+}
