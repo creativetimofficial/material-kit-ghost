@@ -56,7 +56,7 @@ Let us know your thoughts below. And good luck with development!
 
 | React Native | HTML | Figma |
 | ---  | --- | --- |
-| [![Material Kit React Native](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-react-native/opt_mkrn_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/material-kit-react-native?ref=mkg-github-readme) | [![Material Kit  HTML](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/material-kit.jpeg?raw=true)](https://www.creative-tim.com/product/material-kit?ref=mkg-github-readme) | [![Material Kit Figma](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-figma/material-kit-figma.jpg?raw=true)](https://demos.creative-tim.com/material-kit-figma/presentation.html?ref=mkg-github-readme)
+| [![Material Kit React Native](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-react-native/opt_mkrn_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/material-kit-react-native?ref=mkg-github-readme) | [![Material Kit  HTML](https://s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg)](https://www.creative-tim.com/product/material-kit?ref=mkg-github-readme) | [![Material Kit Figma](https://github.com/creativetimofficial/public-assets/blob/master/material-kit-figma/material-kit-figma.jpg?raw=true)](https://demos.creative-tim.com/material-kit-figma/presentation.html?ref=mkg-github-readme)
 
 ## Quick start
 - Download from [Creative Tim](https://www.creative-tim.com/product/material-kit-ghost?ref=mkg-github-readme)
