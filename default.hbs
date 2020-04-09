@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{@site.lang}}">
+
 <head>
 
     {{!-- Document Settings --}}
@@ -10,9 +11,48 @@
     <title>{{meta_title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Canonical SEO -->
+    <link rel="canonical" href="https://www.creative-tim.com/product/material-kit-ghost" />
+
+    <!--  Social tags      -->
+    <meta name="keywords"
+        content="material ghost, material design ghost, material kit ghost, material ghost theme, material kit ghost theme, material theme, ghost theme, material ghost, material theme ghost, material design theme, material design ghost theme, google material ghost, google ghost, theme ghost">
+    <meta name="description"
+        content="Start Your Development With A Badass Material Kit Ghost Theme inspired by Material Design.">
+
+    <!-- Schema.org markup for Google -->
+    <meta itemprop="name" content="Material Kit Ghost - High Quality Theme for Ghost">
+    <meta itemprop="description"
+        content="Start Your Development With A Badass Material Kit Ghost Theme inspired by Material Design.">
+
+    <meta itemprop="image"
+        content="https://s3.amazonaws.com/creativetim_bucket/products/263/thumb/opt_mk_ghost_thumbnail.jpg?1586364531">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@creativetim">
+    <meta name="twitter:title" content="Material Kit Ghost - High Quality Theme for Ghost">
+
+    <meta name="twitter:description"
+        content="Start Your Development With A Badass Material Kit Ghost Theme inspired by Material Design.">
+    <meta name="twitter:creator" content="@creativetim">
+    <meta name="twitter:image"
+        content="https://s3.amazonaws.com/creativetim_bucket/products/263/thumb/opt_mk_ghost_thumbnail.jpg?1586364531">
+
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="655968634437471">
+    <meta property="og:title" content="Material Kit Ghost: Material Design Ghost Theme" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://material-kit-ghost.creative-tim.com/" />
+    <meta property="og:image"
+        content="https://s3.amazonaws.com/creativetim_bucket/products/263/thumb/opt_mk_ghost_thumbnail.jpg?1586364531" />
+    <meta property="og:description"
+        content="Start Your Development With A Badass Material Kit Ghost Theme inspired by Material Design." />
+    <meta property="og:site_name" content="Creative Tim" />
 
     <!-- Font -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
@@ -21,10 +61,23 @@
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
-
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');</script>
+    <!-- End Google Tag Manager -->
 </head>
-<body class="{{body_class}}">
 
+<body class="{{body_class}}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="site-wrapper">
 
         {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
@@ -33,11 +86,14 @@
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
+                <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}
+                </section>
                 <nav class="site-footer-nav">
                     <a href="{{@site.url}}">Latest Posts</a>
-                    {{#if @blog.facebook}}<a href="{{facebook_url @blog.facebook}}" target="_blank" rel="noopener">Facebook</a>{{/if}}
-                    {{#if @blog.twitter}}<a href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
+                    {{#if @blog.facebook}}<a href="{{facebook_url @blog.facebook}}" target="_blank"
+                        rel="noopener">Facebook</a>{{/if}}
+                    {{#if @blog.twitter}}<a href="{{twitter_url @blog.twitter}}" target="_blank"
+                        rel="noopener">Twitter</a>{{/if}}
                     <a href="https://creative-tim.com" target="_blank" rel="noopener">Creative Tim</a>
                 </nav>
             </div>
@@ -51,10 +107,11 @@
         <a class="subscribe-overlay-close" href="#"></a>
         <div class="subscribe-overlay-content">
             {{#if @blog.logo}}
-                <img class="subscribe-overlay-logo" src="{{@site.logo}}" alt="{{@site.title}}" />
+            <img class="subscribe-overlay-logo" src="{{@site.logo}}" alt="{{@site.title}}" />
             {{/if}}
             <h1 class="subscribe-overlay-title">Subscribe to {{@site.title}}</h1>
-            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered
+                straight to your inbox</p>
             {{subscribe_form placeholder="youremail@example.com"}}
         </div>
     </div>
@@ -73,11 +130,9 @@
 
 
     {{!-- jQuery + Fitvids, which makes all video embeds responsive --}}
-    <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+        </script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script src="{{asset "js/parallax.js"}}"></script>
     <script src="{{asset "js/main.js"}}"></script>
@@ -92,5 +147,38 @@
     {{!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag --}}
     {{ghost_foot}}
 
+    <script>
+        // Facebook Pixel Code Don't Delete
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+        try {
+            fbq('init', '111649226022273');
+            fbq('track', "PageView");
+        } catch (err) {
+            console.log('Facebook Track Error:', err);
+        }
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
+    </noscript>
+
 </body>
+
 </html>
