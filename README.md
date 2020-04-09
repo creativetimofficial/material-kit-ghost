@@ -1,4 +1,4 @@
-# [Material Kit Ghost](https://www.creative-tim.com/product/material-kit-ghost) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Material%20Kit%20Ghost,%20a%20cool%20Material%20Design%20Theme%20built%20for%20Ghost%20by%20Creative%20Tim.%20https://material-kit-ghost.creative-tim.com/%20%23argon%20%23designsystem%20%23developers)
+# [Material Kit Ghost](https://www.creative-tim.com/product/material-kit-ghost) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Material%20Kit%20Ghost,%20a%20cool%20Material%20Design%20Theme%20built%20for%20Ghost%20by%20Creative%20Tim.%20https://material-kit-ghost.creative-tim.com/&via=CreativeTim%20%23argon%20%23designsystem%20%23developers)
 
 
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-react-native.svg?style=flat)](https://github.com/creativetimofficial/argon-react-native/issues?q=is%3Aopen+is%3Aissue) 
