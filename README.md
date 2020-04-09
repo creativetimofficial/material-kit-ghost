@@ -159,9 +159,9 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2020 Creative Tim (https://www.creative-tim.com/?ref=mkg-github-readme)
+- Copyright 2020 [Creative Tim](https://www.creative-tim.com/?ref=mkg-github-readme)
 
-- Licensed under MIT (https://github.com/creativetimofficial/material-kit-ghost/blob/master/LICENSE.md)
+- Licensed under [MIT](https://github.com/creativetimofficial/material-kit-ghost/blob/master/LICENSE.md)
 
 
 ## Useful Links
