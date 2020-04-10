@@ -2,7 +2,7 @@
 
 
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-react-native.svg?style=flat)](https://github.com/creativetimofficial/argon-react-native/issues?q=is%3Aopen+is%3Aissue) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/creativetimofficial/material-kit-ghost/blob/master/LICENSE) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-ghost.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit-ghost/issues?q=is%3Aissue+is%3Aclosed)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/creativetimofficial/material-kit-ghost/blob/master/LICENSE) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-ghost)
 
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit-ghost/opt_mk_ghost_thumbnail.jpg)
